@@ -1,0 +1,208 @@
+/*
+ * You should write your CSS in this file.  Don't forget to add your name and
+ * @oregonstate.edu email address below.
+ *
+ * name: Michelle Nguyen
+ * email: nguyemi4@oregonstate.edu
+ */
+
+h1 {
+  font-family: Roboto slab;
+  font-size: 75px;
+  font-weight: 100;
+  display: inline;
+  position: relative;
+  bottom: 15px;
+  left: 15px;
+  margin: 0px;
+  border: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0deg 0% 99%);
+}
+
+.header-image-container {
+  display: inline-block;
+}
+
+.header-image-container img {
+  position: relative;
+  top: 15px;
+}
+
+header {
+  background-color: hsl(0deg 0% 0%);
+  width: 100;
+}
+
+h2 {
+  font-family: Roboto;
+}
+
+.filter-container {
+  font-family: Roboto;
+  width: 250px;
+  height: 410px;
+  background-color: hsl(0deg 0% 94%);
+  padding: 3px 20px;
+  position: relative;
+  border-radius: 2px;
+}
+
+.filter-input-container {
+  margin-bottom: 20px;
+}
+
+.filter-input-label {
+  font-family: Roboto;
+}
+
+.filter-input-element {
+  display: inline-block;
+}
+
+#filter-text {
+  border: 1px solid hsl(0deg 0% 87%);
+  border-radius: 4px;
+  width: 150px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+#filter-min-price {
+  border: 1px solid hsl(0deg 0% 87%);
+  border-radius: 4px;
+  width: 60px;
+  height: 20px;
+  margin-left: 17px;
+  position: relative;
+  right: 10px;
+}
+
+#filter-max-price {
+  border: 1px solid hsl(0deg 0% 87%);
+  border-radius: 4px;
+  width: 60px;
+  height: 20px;
+}
+
+#filter-city.filter-input {
+  border: 1px solid hsl(0deg 0% 87%);
+  border-radius: 4px;
+  width: 153px;
+  height: 20px;
+  position: relative;
+  left: 10px;
+}
+
+.action-button {
+  width: 195px;
+  height: 40px;
+  background-color: hsl(0deg 0% 0%);
+  color: hsl(203deg 42% 93%);
+  font-size: 20px;
+  border: 1px solid hsl(0deg 0% 0%);
+  border-radius: 4px;
+  font-weight: 100;
+}
+
+.action-button:hover {
+  color: hsl(18deg 20% 48%);
+  background-color: hsl(27deg 72% 83%);
+  border-color: hsl(27deg 17% 41%);
+  cursor: pointer;
+}
+
+fieldset {
+  width: 165px;
+  border-color: hsl(0deg 0% 94%);
+}
+
+a.post-title {
+  color: hsl(24deg 92% 57%);
+  /*color: hsl(16deg 91% 64%);*/
+}
+
+.post-title:hover {
+  text-decoration: underline;
+}
+
+.post-price {
+  border: 1px solid hsl(0deg 0% 71%);
+  border-radius: 4px;
+  background-color: hsl(0deg 0% 94%);
+  padding: 2.5px;
+  font-size: 12px;
+  margin: 3px;
+}
+
+.post {
+  border: 1px solid hsl(0deg 0% 89%);
+  border-radius: 4px;
+  width: 290px;
+  height: 320px;
+  padding: 0.2em;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+#posts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  bottom: 396px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.6em;
+}
+
+.post-contents {
+  margin-top: 0.6em;
+}
+
+.post-info-container {
+  font-family: Roboto;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.post-image-container {
+  text-align: center;
+}
+
+.post-image-container img {
+  max-width: 95%;
+  width: auto;
+  max-height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#sell-something-button {
+  background-color: hsl(27deg 93% 51%);
+  border: solid hsl(27deg 93% 51%);
+  border-radius: 55%;
+  width: 55px;
+  height: 55px;
+  position: fixed;
+  right: 2em;
+  bottom: 2em;
+  box-shadow: 3px 4px 6px hsl(120deg 1% 81%);
+}
+
+#sell-something-button:hover {
+  transform: scale(1.10);
+  cursor: pointer;
+}
+
+.fas.fa-plus {
+  color: hsl(0deg 0% 100%);
+  font-size: 35px;
+}
