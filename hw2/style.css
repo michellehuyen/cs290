@@ -6,6 +6,10 @@
  * email: nguyemi4@oregonstate.edu
  */
 
+body {
+  margin: 0px;
+}
+
 h1 {
   font-family: Roboto slab;
   font-size: 75px;
@@ -48,7 +52,7 @@ h2 {
   background-color: hsl(0deg 0% 94%);
   padding: 3px 20px;
   position: relative;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 .filter-input-container {
@@ -159,6 +163,8 @@ a.post-title {
   display: flex;
   flex-direction: row;
   margin-top: 0.6em;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .post-contents {
